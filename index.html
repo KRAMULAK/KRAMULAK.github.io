@@ -5,3 +5,19 @@
 <h5>Título de nível 5</h5>
 <h6>Título de nível 6</h6>
 <a href="http://kramulak.github.io/RPG" target="_parent"><button>Click me !</button></a>
+<!--Tratar um click com html5: -->
+<head>
+    <style type="text/css">
+        #centralizar{position:absolute top:50% left:50%}
+    </style> 
+    </head>
+    <body>
+        <script>
+        function fuiClicado(){
+            document.write("Fui clicado");
+        }
+        </script>
+        <div id="centralizar">
+        <button name="cent" onClick="fuiClicado()"> Clique Aqui</button>
+        </div>
+    </body>
